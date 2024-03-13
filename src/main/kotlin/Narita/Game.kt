@@ -1,5 +1,5 @@
 package Narita
-
+//class of a cat
 class Cat{
     var name: String = "narita"
     val maxEnergy: Int = 100
@@ -29,7 +29,6 @@ class Cat{
              }
             return "that was delicious"
     }
-
     fun play(time : Int){
         energy = energy.minus(time*5)
         hunger = hunger.minus(time*2)
@@ -49,6 +48,7 @@ class Cat{
     fun isDead() = isStarving() and isExhausted()
 }
 
+//cats can eat food
 class food{
     var energyGet: Int = 0
     fun energyGet() = this.energyGet
