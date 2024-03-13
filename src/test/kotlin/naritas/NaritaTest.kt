@@ -1,7 +1,7 @@
 package naritas
 import io.kotest.core.spec.style.DescribeSpec
 import io.kotest.matchers.shouldBe
-
+//tests
 class Tests : DescribeSpec({
     describe("Narita wants to eat some fish"){
         val narita = Cat()
