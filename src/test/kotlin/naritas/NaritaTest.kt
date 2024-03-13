@@ -1,9 +1,8 @@
-package Narita
+package naritas
 import io.kotest.core.spec.style.DescribeSpec
 import io.kotest.matchers.shouldBe
-import java.security.KeyStore.TrustedCertificateEntry
 
-class tests : DescribeSpec({
+class Tests : DescribeSpec({
     describe("Narita wants to eat some fish"){
         val narita = Cat()
         val fish = food()

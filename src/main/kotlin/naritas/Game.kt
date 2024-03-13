@@ -1,4 +1,4 @@
-package Narita
+package naritas
 //class of a cat
 class Cat{
     var name: String = "narita"
